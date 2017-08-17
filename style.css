@@ -1,0 +1,36 @@
+body {
+	font-family: 'Acme', sans-serif;
+	background-image: url("image.png");
+}
+
+#gameBoard {	
+    width: 360px;
+    margin: 40px auto 0px auto;
+	overflow: hidden;
+}
+.row {
+
+	clear: both;
+	overflow: hidden;
+}
+.square {
+	float: left;
+	width: 120px;
+	height: 120px;
+    cursor: pointer;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 40px;
+}
+.bottom {
+   border-bottom: 2px solid black;	
+}
+.right {
+	border-right: 2px solid black;
+}
+ .fa-times {
+	color: red;
+}
+.fa-circle-o {
+	color: blue;
+}
